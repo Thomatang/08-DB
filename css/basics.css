@@ -1,5 +1,6 @@
-label, select, input{
-  width: 150px;
+label, select,input{
+  width: 75px;
   display: inline-block;
   margin: 5px 0;
 }
+
