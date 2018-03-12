@@ -28,6 +28,12 @@ try {
         <input type='submit' value='".$v['id']."' name='Submit' />
         
         </form></td></tr>";
+        $output .= "<td> <form action='delete.php' method='post' value='"
+        .$v['id']
+        ."'>
+        <input type='submit' value='".$v['id']."' name='Delete' />
+        
+        </form></td></tr>";
     }
 }
 catch(PDOException $e)
